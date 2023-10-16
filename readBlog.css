@@ -1,0 +1,44 @@
+.banner{
+    background: url("./imgs/blogBanner.jpg");
+    background-size: cover;
+}
+
+/* Read Blog */
+.readBlog{
+    margin: 10rem 0;
+}
+.readBlog .container .avatar{
+display: flex;
+align-items: center;
+gap: 2rem;
+margin-bottom: 3rem;
+}
+
+.readBlog .container .avatar .image img{
+    max-width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+
+.readBlog .container .avatar .content .username{
+    font-size: 1.7rem;
+    margin: 1rem 0;
+}
+.readBlog .container .avatar .content .dateTime{
+    font-size: 1.4rem;
+    color: gray;
+}
+
+.readBlog .container h2{
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+
+.readBlog .container p{
+    font-size: 1.6rem;
+    margin: 2rem 0;
+}
+.readBlog .container ul li{
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}

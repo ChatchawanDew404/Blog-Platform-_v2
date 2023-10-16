@@ -1,0 +1,59 @@
+:root{
+    --black:#000;
+    --white:#fff;
+    --blue1:rgb(102, 102, 243);
+    --blue1_hover:rgb(83, 83, 248);
+}
+
+/* banner */
+.banner{
+    background: url("./imgs/blogBanner.jpg");
+    background-size: cover;
+}
+
+/* contact */
+.contact {
+    margin: 10rem 0;
+}
+.contact .container .inputBx{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact .container input{
+font-size: 1.6rem;
+outline: none;
+padding: 1rem;
+}
+.contact .container textarea{
+font-size: 1.6rem;
+outline: none;
+padding: 1rem;
+width: 100%;
+resize: none;
+}
+.contact .container button{
+font-size: 1.6rem;
+outline: none;
+padding: 1rem 3rem;
+display: inline-block;
+color: white;
+margin-top: 2rem;
+background: var(--blue1);
+border: none;
+}
+
+.contact .container button:hover{
+    background: var(--blue1_hover);
+    cursor: pointer;
+}
+
+
+/* --------- Media query  -----------------*/
+@media screen and (max-width:480px) {
+    .contact .container .inputBx{
+        grid-template-columns: 1fr;
+    }
+    }
